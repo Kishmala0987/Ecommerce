@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="Main.html"><img src="./images/logo.png" width="125px" alt=""></a>
+                </div>
+                <nav>
+                    <ul id="menu-items">
+                        <li>
+                        <li><a href="Main.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    
+
+                        </li>
+                    </ul>
+                </nav>
+                <a href="cart.html" class="cart-icon"><img src="./images/cart.png" width="30px" height="30px" alt=""></a>
+                <span class="cart-badge">0</span>
+                <img src="./images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+        <div class="small-container">
+            <div class="row row-2">
+                <h2>All Products</h2>
+                <select>
+                    <option>Default Sorting</option>
+                    <option>Sort by Price</option>
+                    <option>Sort by Popularity</option>
+                    <option>Sort by sale</option>
+                </select>
+            </div>
+            <div class="product-container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="product-cart" data-id="1" data-name="Red Printed T-Shirt"
+                        data-price="50" data-image="./images/product-1.jpg">
+                            <a href="Product-details.html"><img src="./images/product-1.jpg" alt=""></a>
+                            <h4>Red Printed T-Shirt</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>$50.00</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="product-cart" data-id="2" data-name="Black Sneakers"
+                        data-price="70" data-image="./images/product-2.jpg">
+                            <img src="./images/product-2.jpg" alt="">
+                            <h4>Black Sneakers</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>$70.00</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="product-cart" data-id="3" data-name="Gray Pants"
+                        data-price="50" data-image="./images/buy-3.jpg">
+                            <img src="./images/product-3.jpg" alt="">
+                            <h4>Gray Pants</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                            </div>
+                            <p>$50.00</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="product-cart" data-id="4" data-name="Blue Printer T-Shirt"
+                        data-price="50" data-image="./images/buy-4.jpg">
+                            <img src="./images/product-4.jpg" alt="">
+                            <h4>Blue Printed T-Shirt</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>$50.00</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="product-cart" data-id="5" data-name="Gray Pants"
+                        data-price="50" data-image="./images/product-5.jpg">
+                            <img src="./images/product-5.jpg" alt="">
+                            <h4>Gray Joggers</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>$55.00</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="product-cart" data-id="6" data-name="Gray Pants"
+                        data-price="50" data-image="./images/product-6.jpg">
+                        <img src="./images/product-6.jpg" alt="">
+                            <h4>Black Printed T-Shirt</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>$50.00</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+
+                    </div>
+                    <div class="col-4">
+                        <div class="product-cart" data-id="7" data-name="Gray Pants"
+                        data-price="50" data-image="./images/product-7.jpg">
+                            <img src="./images/product-7.jpg" alt="">
+                            <h4>3 Pairs Socks</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                            </div>
+                            <p>$50.00</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="product-cart" data-id="8" data-name="Black Watch"
+                        data-price="50" data-image="./images/product-8.jpg">
+                            <img src="./images/product-8.jpg" alt="">
+                            <h4>Black Watch</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>$50.00</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="product-cart" data-id="9" data-name="Red Printed T-Shirt"
+                        data-price="50" data-image="./images/product-9.jpg">
+                            <img src="./images/product-9.jpg" alt="">
+                            <h4>Red Printed T-Shirt</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>$50.00</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="product-cart" data-id="10" data-name="Gray Pants"
+                        data-price="50" data-image="./images/product-10.jpg">
+                            <img src="./images/product-10.jpg" alt="">
+                            <h4>Red Printed T-Shirt</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>$50.00</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="product-cart" data-id="11" data-name="Gray Pants"
+                        data-price="50" data-image="./images/product-11.jpg">
+                            <img src="./images/product-11.jpg" alt="">
+                            <h4>Red Printed T-Shirt</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                            </div>
+                            <p>$50.00</p>
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                    </div>
+                <div class="col-4">
+                    <div class="product-cart" data-id="12" data-name="Gray Pants"
+                    data-price="50" data-image="./images/buy-12.jpg">
+                        <img src="./images/product-12.jpg" alt="">
+                        <h4>Red Printed T-Shirt</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>$50.00</p>
+                        <button class="btn js-add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pg-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span> &#8594;</span>
+        </div>
+    </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download our App</h3>
+                        <p>Download App for Android and ios mobile phone.</p>
+                        <div class="app-logo">
+                            <img src="./images/play-store.png" alt="">
+                            <img src="./images/app-store.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="./images/logo-white.png" alt="">
+                        <p>Our Purpose Is To Sustainably Make th Pleasure
+                            and Benefits of Sports Accessible to the Many.</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copytight 2020 - Rahul Kumar Sinha</p>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+    const cartBadge = document.querySelector(".cart-badge");
+
+    // Function to update the cart badge count
+    function updateCartBadge() {
+        const cart = JSON.parse(localStorage.getItem("cart")) || [];
+        const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+        cartBadge.textContent = totalItems;
+    }
+
+    // Add to Cart functionality
+    document.querySelectorAll(".btn").forEach(button => {
+        button.addEventListener("click", function () {
+            const productCard = this.closest(".product-cart");
+            const productId = productCard.getAttribute("data-id");
+            const productName = productCard.getAttribute("data-name");
+            const productPrice = parseFloat(productCard.getAttribute("data-price"));
+            const productImage = productCard.getAttribute("data-image");
+
+            let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+            // Check if the product already exists in the cart
+            const existingProduct = cart.find(item => item.id === productId);
+            if (existingProduct) {
+                existingProduct.quantity += 1; // Increment the quantity
+            } else {
+                cart.push({
+                    id: productId,
+                    name: productName,
+                    price: productPrice,
+                    image: productImage,
+                    quantity: 1
+                });
+            }
+
+            // Save the cart back to localStorage
+            localStorage.setItem("cart", JSON.stringify(cart));
+            updateCartBadge();
+
+            alert(`${productName} has been added to the cart!`);
+            console.log('Product');
+        });
+    });
+
+    // Initialize the cart badge on page load
+    updateCartBadge();
+});
+
+        </script>
+    </body>
+
+</html>
